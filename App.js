@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, SafeAreaView, TextInput, Keyboard } from 'react-native';
-import api from './src/servicos/api';
+import api from 'buscaApi';
 
 export default function App() {
   const [cep, setCep] = useState('');
